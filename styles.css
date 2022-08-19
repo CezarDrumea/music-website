@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  background-color: #101010;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+
+.description {
+  width: 300px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.h1-description {
+  font-size: 20px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+} 
+
+li > a:hover {
+  color: #808080;
+}
+
+li > a:active {
+  color: #505050;
+}
+
+h2 {
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.videos_flex {
+  display: flex;
+  gap: 40px;
+  width: 50%;
+  margin: 0 auto 30px auto;
+  justify-content: center;
+}
+
+.videos {
+  border-radius: 20px;
+}
+
+.inspiring_quote {
+  background-color: #dfdfdf;
+}
+
+.quote {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.autor_quote {
+  width: 30%;
+  margin: auto;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #101010;
+  color: white;
+}
+
+.copyright {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
